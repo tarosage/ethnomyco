@@ -1,3 +1,3 @@
 /* JS Main by Taro Sage, 2026 */
-var myDiv = document.getElementById("example")
-myDiv.innerHTML = "Amanita Muscaria"
+var myDiv = document.getElementById("example");
+myDiv.innerHTML = "The Renowned Amanita Muscaria"
