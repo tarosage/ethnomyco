@@ -1,4 +1,4 @@
-/*  by Taro Sage, 2026 */
+// by Taro Sage, 2026 //
 <head>
 
 <link 
@@ -22,5 +22,13 @@ href="/Users/tarocole/Desktop/ethnomyco/- css/style.css">
 
 </body>
 
+//fill the rest in when data loaded into repo
+<script src="js/main.js" defer></script>
 
-<script src="js/main.js"></script>
+
+fetch('/data/mycology.geojson')
+    .then(response => response.json())
+    .then(data => {
+            console.log(data);
+    })
+    .catch(error => console.error('Error: ', error));
