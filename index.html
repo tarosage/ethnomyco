@@ -2,16 +2,16 @@
 <html>
 <head>
 
-//css stylesheet//
+<!--css stylesheet-->
 <link rel= "stylesheet"href="/Users/tarocole/Desktop/ethnomyco/- css/style.css">
 
-//webpage text//
+<!--webpage text-->
 <body>
 <h1>
     Soon, this webpage will feature an interactive map for ethnomycology.
 </h1>
 
-//link to wikipedia//
+<!--link to wikipedia-->
 <p>
     If you aren't familiar with ethnomycology, feel free to click the picture to learn more.
 </p>
@@ -21,15 +21,3 @@
 </p>
 </body>
 </html>
-
-
-//fill the rest in when data loaded into repo//
-<script src="js/main.js" defer></script>
-
-
-fetch('/data/mycology.geojson')
-    .then(response => response.json())
-    .then(data => {
-            console.log(data);
-    })
-    .catch(error => console.error('Error: ', error));
